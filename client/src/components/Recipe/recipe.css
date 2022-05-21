@@ -1,0 +1,54 @@
+.recipe {
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px black;
+	margin: auto;
+	margin-top: 20px;
+	background: white;
+	width: 50%;
+}
+
+.recipeName {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.recipeNotes {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+	/* margin: 0%; */
+	/* margin-right: 1rem; */
+	/* height: 1rem; */
+}
+
+.note {
+	/* display: flex; */
+	/* flex-direction: row; */
+    margin-right: 5px;
+}
+
+.iconVegan {
+	color: greenyellow;
+}
+
+.recipePrice {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.image {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.everySnd:nth-child(odd) {	
+		background-color: #B9BCD1;
+}
+.everySnd:nth-child(even) {
+        background-color: #E4E6ED;
+    } 
+
+

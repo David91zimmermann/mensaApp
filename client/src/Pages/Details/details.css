@@ -1,0 +1,97 @@
+.category {
+	cursor: pointer;
+	background-color: rgb(96, 255, 123);
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.category:hover {
+	background-color: rgb(236, 228, 117);
+}
+
+.category-choosed {
+	cursor: pointer;
+	background-color: rgb(255, 244, 93);
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.categorys {
+	display: flex;
+	justify-content: center;
+}
+
+.error {
+	color: crimson;
+	display: none;
+}
+
+.mapsContainer {
+	height: 400px;
+}
+
+.datePicker {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 320px) {
+
+    h4 {
+        font-size: 6px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+}
+
+/*
+
+Large Layout
+
+
+
+
+*/
+@media (min-width: 720px) {
+	.categorys {
+		display: flex;
+		justify-content: center;
+	}
+
+	.category {
+		cursor: pointer;
+		background-color: green;
+		margin: 1rem;
+		padding: 1rem;
+		border-radius: 30px;
+		cursor: pointer;
+	}
+
+	.category:hover {
+		cursor: pointer;
+		background-color: rgb(255, 238, 0);
+		margin: 1rem;
+		padding: 1rem;
+		border-radius: 30px;
+		cursor: pointer;
+	}
+
+	.category-choosed {
+		cursor: pointer;
+		background-color: rgb(255, 238, 0);
+		margin: 1rem;
+		padding: 1rem;
+		border-radius: 30px;
+		cursor: pointer;
+	}
+
+    .leftCorner {
+		margin-left: 0.5rem;
+	}
+}

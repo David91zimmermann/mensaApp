@@ -1,0 +1,8 @@
+[[redirects]]
+    from = "/"
+    to = "client/"
+
+[build]
+    base = ""
+    publish = "build/"
+    command = "CI= npm run build"

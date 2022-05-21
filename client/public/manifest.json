@@ -1,0 +1,103 @@
+{
+    "short_name": "Mensario",
+    "name": "Mensario PWA",
+    "icons": [
+        {
+            "src": "/images/1024x1024_Mensario Logo.png",
+            "type": "image/png",
+            "sizes": "1024x1024",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/images/512x512_Mensario Logo.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/images/384x384_Mensario Logo.png",
+            "type": "image/png",
+            "sizes": "384x384",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/images/192x192_Mensario Logo.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/images/180x180_Mensario Logo.png",
+            "type": "image/png",
+            "sizes": "180x180",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/images/150x150_Mensario Logo.png",
+            "type": "image/png",
+            "sizes": "150x150",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/images/120x120_Mensario Logo.png",
+            "type": "image/png",
+            "sizes": "120x120",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/images/96x96_Mensario Logo.png",
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/images/72x72_Mensario Logo.png",
+            "type": "image/png",
+            "sizes": "72x72",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/images/48x48_Mensario Logo.png",
+            "type": "image/png",
+            "sizes": "48x48",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/images/32x32_Mensario Logo.png",
+            "type": "image/png",
+            "sizes": "32x32",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/images/16x16_Mensario Logo.png",
+            "type": "image/png",
+            "sizes": "16x16",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/images/Mensario Logo.svg",
+            "type": "image/svg",
+            "sizes": "16x16",
+            "purpose": "any maskable"
+        }
+
+
+
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

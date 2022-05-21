@@ -1,0 +1,151 @@
+.details-btn {
+	background: transparent;
+	color: #2600ff;
+	border: none;
+	padding: 1rem;
+	cursor: pointer;
+	font-size: 1.5rem;
+	/* align-items:flex-end; */
+	justify-content: flex-end;
+}
+
+.details-btn:hover {
+	background: transparent;
+	color: #ffffff;
+	border: none;
+	padding: 1rem;
+	cursor: pointer;
+	font-size: 2rem;
+	/* align-items:flex-end; */
+	justify-content: flex-end;
+}
+
+.favorite-btn {
+	background: transparent;
+	color: rgb(63, 63, 63);
+	border: none;
+	padding: 0.5rem;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+
+.favorite-btn-big {
+	background: transparent;
+	color: #dd0000;
+	border: none;
+	padding: 0.5rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
+.favorite-btn-big-gray {
+	background: transparent;
+	color: rgb(63, 63, 63);
+	border: none;
+	padding: 0.5rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
+.favorite-choosed-btn {
+	background: transparent;
+	color: #dd0000;
+	/* color: white; */
+	border: none;
+	padding: 0.5rem;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+
+.favorite-btn:hover {
+	color: #ff0000;
+	border: none;
+	padding: 0.5rem;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+
+.everySnd:nth-child(odd) {	
+		background-color: #B9BCD1;
+}
+.everySnd:nth-child(even) {
+        background-color: #E4E6ED;
+    } 
+	
+/*
+
+Large Layout
+
+
+
+
+*/
+@media (min-width: 720px) {
+
+	.details-btn {
+		background: transparent;
+		color: var(--specialblue);
+		border: none;
+		padding: 1rem;
+		cursor: pointer;
+		font-size: 2rem;
+		/* align-items:flex-end; */
+		justify-content: flex-end;
+	}
+
+	.details-btn:hover {
+		background: transparent;
+		color: #ffffff;
+		border: none;
+		padding: 1rem;
+		cursor: pointer;
+		font-size: 2rem;
+		/* align-items:flex-end; */
+		justify-content: flex-end;
+	}
+
+	.favorite-btn {
+		background: transparent;
+		color: rgb(63, 63, 63);
+		border: none;
+		padding: 0.5rem;
+		cursor: pointer;
+		font-size: 1.5rem;
+	}
+
+	.favorite-btn-big {
+		background: transparent;
+		color: #dd0000;
+		border: none;
+		padding: 0.5rem;
+		cursor: pointer;
+		font-size: 2rem;
+	}
+
+	.favorite-btn-big-gray {
+		background: transparent;
+		color: rgb(63, 63, 63);
+		border: none;
+		padding: 0.5rem;
+		cursor: pointer;
+		font-size: 2rem;
+	}
+
+	.favorite-choosed-btn {
+		background: transparent;
+		color: #dd0000;
+		/* color: white; */
+		border: none;
+		padding: 0.5rem;
+		cursor: pointer;
+		font-size: 1.5rem;
+	}
+
+	.favorite-btn:hover {
+		color: #ff0000;
+		border: none;
+		padding: 0.5rem;
+		cursor: pointer;
+		font-size: 1.5rem;
+	}
+}

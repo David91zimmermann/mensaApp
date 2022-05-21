@@ -1,0 +1,38 @@
+.viewButton {
+	border: none;
+	padding: 20px;
+	background-color: teal;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.active {
+	background-color: rgb(22, 104, 104);
+}
+
+.searchBtn {
+	background: transparent;
+	color: var(--specialblue);
+	border: none;
+	padding: 0.5rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
+.mapElement {
+    height: 100%;
+}
+
+/*
+
+
+Large Layout
+
+
+
+
+*/
+@media (min-width: 720px) {
+
+}
